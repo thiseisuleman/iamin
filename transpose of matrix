@@ -1,0 +1,22 @@
+#include<stdio.h›
+int main)
+1
+int a [3][3],b[3][31,1.J:
+for (i=0;1<3; i++)
+for (=0:j <3:j++)
+{
+printf("Enter value of 2D Array:"): scanf ("%d", &a [1] J]) :
+printf("\nMatrix is: "):
+for (1=0;1<3;1++)
+printf("\n") :
+for (=0:j <3:J++)
+printf ("%d\t" ,a[il Ul):
+for (i=0;1<3;i++)
+for j=0:j<3;j++)
+bJl[1]=a[1]J1:
+printf ("\Transpose of matrix is :"); for (i=0; i<3;i++)
+printf("\n") :
+for (=0:j <3:J++)
+printf("%d\t", b[1]Ul);
+｝
+return 0:
