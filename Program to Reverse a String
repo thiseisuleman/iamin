@@ -1,0 +1,15 @@
+
+#include<stdio.h>
+#include<string.h>
+int main (void)
+1
+char strg[50]; int leng, i :
+printf("Insert the string to reverse: ");
+scanf( "%s"
+, strg );
+leng = strlen(strg) ;
+for (i = leng - 1; i >= 0; i--)
+printf("%c", strg[il);
+^
+return 0;
+｝
