@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main(void)
+char a[25],b[25];
+int 1=0, j=0;
+printf("\nEnter First String:");
+scanf ("%s" ,a);
+printf("\nEnter Second String:");
+scanf ("%s" , b);
+while(a[i]!=' \0')
+1++;
+while(b[j]!='\0')
+1
+a [i]=b[j];
+j++;
+1++
+a [i]= '\0';
+printf("\nConcat String is %s"
+, a) ;
+}
