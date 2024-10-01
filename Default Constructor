@@ -1,0 +1,1 @@
+ # include <iostream> using name space std: class A { int a; Public: A ( ) // default constructor { A=10; } void putdata () { cout<< “ Value of a=”<<a; } }; int main ( ) A aa; aa.putdata(); return 0; }
