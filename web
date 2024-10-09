@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            max-width: 800px;
+            margin: auto;
+        }
+        .sidebar {
+            width: 30%;
+            text-align: center;
+        }
+        .sidebar img {
+            width: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .main-content {
+            width: 70%;
+            padding-left: 20px;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <img src="https://via.placeholder.com/100" alt="Profile Picture">
+            <h3>John Doe</h3>
+            <p>Software Engineer</p>
+            <p>Email: johndoe@example.com</p>
+            <p>Phone: +1234567890</p>
+        </div>
+
+        <div class="main-content">
+            <h2>Summary</h2>
+            <p>Software engineer with experience in backend development and cloud technologies.</p>
+
+            <h2>Experience</h2>
+            <p><strong>Senior Software Engineer</strong>, Tech Innovators Inc. (2020 - Present)</p>
+            <ul>
+                <li>Lead backend team for API development</li>
+                <li>Managed cloud infrastructure</li>
+            </ul>
+            <p><strong>Software Engineer</strong>, NextGen Solutions (2017 - 2020)</p>
+            <ul>
+                <li>Developed microservices</li>
+                <li>Improved application performance</li>
+            </ul>
+
+            <h2>Education</h2>
+            <p>B.Sc. in Computer Science, University of California, Berkeley (2016)</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+</body>
+</html>
